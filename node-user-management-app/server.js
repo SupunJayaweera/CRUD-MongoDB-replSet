@@ -13,7 +13,7 @@ app.use(cors()); // unblock browser restrictions
 app.use(express.json()); // requests and responses are happening in json format
 
 const uri =
-  "mongodb://root6:MDBserver@456@192.168.4.226:27017,root7:MDBserver@456@192.168.4.225:27017,root8:MDBserver@456@192.168.4.224:27017/?replicaSet=rs1";
+  "mongodb://192.168.4.226:27017,192.168.4.225:27017,192.168.4.224:27017/?replicaSet=rs1";
 
 const connect = async () => {
   try {
