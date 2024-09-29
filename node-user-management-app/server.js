@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
-const port = 9351;
+const port = 3001;
 const host = "localhost";
 const mongoose = require("mongoose");
 const router = require("./router");
